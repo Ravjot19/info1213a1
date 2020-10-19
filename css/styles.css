@@ -1,0 +1,400 @@
+.html,
+ body {
+  margin:0;
+  padding:0;
+  height: 100%
+
+
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+
+}
+
+h5{
+  margin: 0 auto 0 auto;
+  text-align: center;
+
+
+}
+
+.top-container{
+  background-color: #EFBBCF;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+}
+
+.who{
+  line-height: 1.5;
+  text-align: center;
+}
+.p{
+  text-align: center;
+}
+.phone-icon{
+  position: absolute;
+  left: 700px;
+
+
+}
+.profile-picture{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.controller{
+  position: absolute;
+  width: 100px;
+  right:700px;
+  padding-right:80px;
+  top: 75px;
+}
+
+.gamer{
+  position: absolute;
+  width: 150px;
+  top:30px;
+  padding-top: 50px;
+  padding-left: 250px;
+
+
+}
+
+.contact-bar {
+  background: #faa8a8;
+  background-image: -webkit-linear-gradient(top, #faa8a8, #d4a3a3);
+  background-image: -moz-linear-gradient(top, #faa8a8, #d4a3a3);
+  background-image: -ms-linear-gradient(top, #faa8a8, #d4a3a3);
+  background-image: -o-linear-gradient(top, #faa8a8, #d4a3a3);
+  background-image: linear-gradient(to bottom, #faa8a8, #d4a3a3);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 9px 5px 9px;
+  text-decoration: none;
+  position: absolute;
+  right: 300px;
+}
+
+.contact-bar:hover {
+  background: #ed91a8;
+  background-image: -webkit-linear-gradient(top, #ed91a8, #c28490);
+  background-image: -moz-linear-gradient(top, #ed91a8, #c28490);
+  background-image: -ms-linear-gradient(top, #ed91a8, #c28490);
+  background-image: -o-linear-gradient(top, #ed91a8, #c28490);
+  background-image: linear-gradient(to bottom, #ed91a8, #c28490);
+  text-decoration: none;
+}
+
+
+
+.about-me{
+background-color: #F9C0C0;
+width: 100%;
+height: 1050px;
+position: absolute;
+
+
+
+
+
+
+
+
+}
+.bio-box{
+margin-top: 150px;
+background: #EFBBCF;
+border: solid 5px;
+text-align: center;
+height: 700px;
+width: 600px;
+position: absolute;
+left: 250px;
+padding: 10px;
+border-spacing: 15px;
+display:inline-block;
+
+}
+
+.bio-title{
+  padding-top: 35px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 10px;
+
+
+}
+
+.games-title{
+  padding-top: 10px;
+  font-family: sans-serif;
+  float: left;
+  padding-left: 40px;
+  position: absolute;
+}
+.hobby-title{
+  padding-top: 200px;
+  font-family: sans-serif;
+  float: left;
+  padding-left: 40px;
+  position: absolute;
+
+}
+
+.g-list{
+  padding-top: 50px;
+  float:left;
+  text-align: left;
+  padding-left: 75px;
+  line-height: 1.5;
+  font-size: 20px;
+
+}
+
+.h-list{
+  padding-top: 260px;
+  padding-left:75px;
+  text-align:left;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-size:20px;
+
+
+
+
+}
+
+.title{
+  padding-top: 20px;
+}
+
+.header{
+  padding-top: 25px;
+  margin-top: 50px;
+}
+
+.chart{
+  padding-top: 75px;
+  position: absolute;
+  right:20;
+}
+
+
+.table{
+  padding-top: 75px;
+  position: absolute;
+  right: 7px;
+  left: 5px;
+  margin-top: 50px;
+  width: 30%;
+  height: 75%;
+  padding-bottom:75px;
+  text-align: center;
+
+}
+.border{
+  border:solid
+}
+
+.skills-box{
+  text-align: center;
+  margin-top: 150px;
+  background: #EFBBCF;
+  border:solid 5px;
+  text-align: center;
+  padding:15px;
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  left:1300px;
+  border-spacing: 15px;
+  display: inline-block;
+}
+
+#progress-cc{
+    background: #333;
+    border-radius: 16px;
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+#progress-cc:after{
+    content: '';
+    display: block;
+    background: #F9C0C0;
+    width: 90%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#progress-c{
+    background: #333;
+    border-radius: 16px;
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+#progress-c:after{
+    content: '';
+    display: block;
+    background: #F9C0C0;
+    width: 75%;
+    height: 100%;
+    border-radius: 7px;
+}
+#progress-p{
+    background: #333;
+    border-radius: 16px;
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+#progress-p:after{
+    content: '';
+    display: block;
+    background: #F9C0C0;
+    width: 60%;
+    height: 100%;
+    border-radius: 7px;
+}
+#progress-j{
+    background: #333;
+    border-radius: 16px;
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+#progress-j:after{
+    content: '';
+    display: block;
+    background: #F9C0C0;
+    width: 45%;
+    height: 100%;
+    border-radius: 7px;
+}
+.expereince{
+  margin-top: 150px;
+  background: #EFBBCF;
+  border:solid 5px;
+  padding:15px;
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  margin-left:700px;
+  right: 250px;
+  display: inline-block;
+  margin-bottom: 150px;
+
+}
+
+.table-title{
+  font-family: monospace;
+
+
+}
+.table-color{
+  background-color: #F9C0C0;
+}
+
+
+.year{
+  height: 50px;
+
+  }
+
+
+.hr{
+
+}
+
+.Contact-me{
+  bottom: 0;
+  background: #EFBBCF;
+  height: auto;
+  width: auto;
+  position: absolute;
+}
+.bottom-container{
+  padding-top:0px;
+  bottom: 0;
+  background: #EFBBCF;
+  position: absolute;
+  width: 100%;
+  height: 17%;
+
+
+}
+
+.bottom-title{
+  margin-top: 30px;
+  font-family: sans-serif;
+  margin: 25px auto 40px;
+  text-align: center;
+
+}
+
+.describe{
+text-align: center;
+
+}
+
+.btn {
+
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  right: 47%;
+  position: absolute;
+
+
+
+
+
+  line-height: 2;
+
+}
+
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
